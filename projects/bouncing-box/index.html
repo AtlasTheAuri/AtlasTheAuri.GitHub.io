@@ -78,7 +78,6 @@
 			var points = 0
 			var posistionY = 0
 			var speedY = 5 
-			
 			var colorStr = "rgb (50,25,250)"
 			var randomNumberBetween0and255 = 
 			Math.random() * 255;
@@ -104,6 +103,11 @@
 					speedY = speedY * -1
 				}
 			};
+
+			jQuery(window).on('resize', function() {
+				boardWidth = board.width();
+				boardHeight = board.height();
+			})
 
 			/* 
 			This Function will be called each time the box is clicked. Each time it is called,
