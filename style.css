@@ -114,6 +114,11 @@ h2, h3 {
         max-width: 250px;
     }
 
+    .img {
+        max-width: 100%;
+        height: auto;
+    }
+
     .content {
         padding: 10px;
     }
