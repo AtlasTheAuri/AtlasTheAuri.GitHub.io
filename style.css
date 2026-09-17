@@ -135,3 +135,13 @@ h2, h3 {
         font-size: 1rem;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .sidebar-img {
+        max-width: 350px;
+    }
+
+    #all-contents {
+        max-width: 1000px;
+    }
+}
