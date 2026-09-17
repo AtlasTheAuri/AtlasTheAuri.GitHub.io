@@ -138,7 +138,7 @@ h2, h3 {
 
 @media screen and (min-width: 1024px) {
     .sidebar-img {
-        max-width: 350px;
+        max-width: 600px;
     }
 
     #all-contents {
